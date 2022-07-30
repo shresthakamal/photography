@@ -8,6 +8,6 @@
     "cleanup": true,
     "theme": "classic",
     "css": "./custom.css",
-    "footer": "&copy Kamal Shrestha, shresthakamal.github.io",
+    "footer": "&copy Kamal Shrestha, [Home](shresthakamal.github.io)",
     "usage-stats": false
 }
