@@ -6,66 +6,61 @@
       <meta name="viewport" content="width=device-width, user-scalable=no" />
       <title>Kamal Shrestha, Gallery - Home</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
-      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
   </head>
 
   <body>
 
+    <header>
+      <a href="index.html">
+        <h1>Kamal Shrestha, Gallery</h1>
+      </a>
+    </header>
     
-    <div id="container">
+    <!--
+      Breadcrumbs of parent albums
+    -->
     
-      <!--
-        Gallery title
-      -->
-      <header>
-        <h1><a href="index.html">Kamal Shrestha, Gallery</a></h1>
-      </header>
+    <!--
+      Nested albums
+    -->
+    <ul id="galleries">
+     <li>
+       <a href="BBQ-Nation.html">
+         <h3>BBQ Nation</h3>
+         <div class="meta">
+           12 photos<br />
+           30 Jul 2022 - 30 Jul 2022
+         </div>
+         <ul class="grid"><li><img src="media/thumbs/BBQ%20Nation/bbq-1.jpg" /></li><li><img src="media/thumbs/BBQ%20Nation/bbq-2.jpg" /></li><li><img src="media/thumbs/BBQ%20Nation/bbq-3.jpg" /></li><li><img src="media/thumbs/BBQ%20Nation/bbq-4.jpg" /></li>     </ul>
+       </a>
+     </li>
+    </ul>
     
-      <!--
-        Breadcrumbs of parent albums
-      -->
-      <nav class="breadcrumbs">
-    <a class="breadcrumb-item" href="index.html">Home</a>
-      </nav>
+    <!--
+      Render all thumbnails
+    -->
+    <ul id="media">
+    </ul>
     
-      <!--
-        Nested albums, if any
-      -->
-      <div id="albums">
-    <a href="BBQ-Nation.html" style="background-image: url('media/small/BBQ%20Nation/bbq-1.jpg')">
-            <div class="info">
-              <h3>BBQ Nation</h3>
-              <div class="summary">12 photos</div>
-              <div class="date">30 Jul 2022 - 30 Jul 2022</div>
-            </div>
-          </a>  </div>
+    <!--
+      Pagination
+    -->
     
-      <!--
-        All photos and videos
-      -->
-      <ul id="media" class="clearfix">
-      </ul>
-    
-      <!--
-        Pagination
-      -->
-    
-      <!--
-        Zip file link
-      -->
+    <!--
+      Zip file link
+    -->
     
     
-      <!--
-        Optional footer
-      -->
-      <footer>
-        <p>Copyright Text</p>
-      </footer>
-    
-    </div>
+    <!--
+      Optional footer
+    -->
+    <footer>
+      <p>Copyright Text</p>
+    </footer>
     <!-- Video loader -->
     <div id="videos">
     </div>
